@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="57d54d3b-01f9-49f9-b3bf-774800a100c4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/UserSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UserSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/role.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/role.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +154,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../babitaWebshop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
@@ -210,7 +216,8 @@
       <workItem from="1597522166728" duration="3249000" />
       <workItem from="1597572136696" duration="12217000" />
       <workItem from="1597600677139" duration="17673000" />
-      <workItem from="1597695643513" duration="907000" />
+      <workItem from="1597695643513" duration="1207000" />
+      <workItem from="1597782369013" duration="7099000" />
     </task>
     <servers />
   </component>
@@ -237,10 +244,10 @@
       <screen x="0" y="0" width="1920" height="1024" />
     </state>
     <state x="556" y="143" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1024@0.0.1920.1024" timestamp="1597525296229" />
-    <state x="631" y="143" key="FileChooserDialogImpl" timestamp="1597581341426">
+    <state x="631" y="143" key="FileChooserDialogImpl" timestamp="1597698029911">
       <screen x="0" y="0" width="1920" height="1024" />
     </state>
-    <state x="631" y="143" key="FileChooserDialogImpl/0.0.1920.1024@0.0.1920.1024" timestamp="1597581341426" />
+    <state x="631" y="143" key="FileChooserDialogImpl/0.0.1920.1024@0.0.1920.1024" timestamp="1597698029911" />
     <state x="453" y="-2" width="1009" height="1470" key="search.everywhere.popup" timestamp="1597525060803">
       <screen x="0" y="0" width="1920" height="1024" />
     </state>

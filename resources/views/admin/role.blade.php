@@ -10,10 +10,10 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header">
-                    <?php $role_name= DB::table('roles')->select('role')->where('id',$id_)->get(); ?>
+                  {{--  <?php $role_name= DB::table('roles')->select('role')->where('id',$id_)->get(); ?>
                     <h4 class="card-title"> Role : @foreach($role_name as $r_name)
                             {{ $r_name->role }}
-                        @endforeach</h4>
+                        @endforeach</h4>--}}
 
                     <div class="card-body">
                         @if (session('status'))

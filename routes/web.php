@@ -68,8 +68,8 @@ Route::group(['middleware' => ['auth', 'admin']], function () {
     Route::get('/user-role', 'Admin\UserController@index');
     Route::get('/create-user', 'Admin\UserController@create');
     Route::get('/create-role', 'Admin\UserController@save');
-    Route::get('/durations', 'Admin\TaskController@duration');
-    Route::get('/role/{id}', 'Admin\UserController@showactors');
+    Route::get('/durations', 'Admin\TaskController@duratiophpn');
+    Route::get('/role', 'Admin\UserController@showroles');
  Route::get('/status_filter/{id}', 'Admin\TaskController@statusfilter');
     Route::get('/create-task','Admin\TaskController@createtask');
 });

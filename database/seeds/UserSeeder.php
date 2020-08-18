@@ -39,7 +39,7 @@ class UserSeeder extends Seeder
         $actor = User::create([
             'firstname' => 'Actor1',
             'lastname'=> 'Actor1',
-            'role'=>'actor1',
+            'role'=>'actor',
             'email' => 'actor1@gmail.com',
             'password' => bcrypt('actor1')
         ]);
@@ -53,7 +53,7 @@ class UserSeeder extends Seeder
         $actor = User::create([
             'firstname' => 'Actor2',
             'lastname'=> 'Actor2',
-            'role'=>'actor2',
+            'role'=>'actor',
             'email' => 'actor2@gmail.com',
             'password' => bcrypt('actor2')
         ]);
