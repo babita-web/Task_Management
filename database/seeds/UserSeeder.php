@@ -57,6 +57,38 @@ class UserSeeder extends Seeder
             'email' => 'actor2@gmail.com',
             'password' => bcrypt('actor2')
         ]);
+
+        $actor = User::create([
+            'firstname' => 'Actor3',
+            'lastname'=> 'Actor3',
+            'role'=>'actor',
+            'email' => 'actor3@gmail.com',
+            'password' => bcrypt('actor3')
+        ]);
+
+        $actor = User::create([
+            'firstname' => 'Actor4',
+            'lastname'=> 'Actor4',
+            'role'=>'actor',
+            'email' => 'actor4@gmail.com',
+            'password' => bcrypt('actor4')
+        ]);
+
+        $actor = User::create([
+            'firstname' => 'Actor5',
+            'lastname'=> 'Actor5',
+            'role'=>'actor',
+            'email' => 'actor5@gmail.com',
+            'password' => bcrypt('actor5')
+        ]);
+
+        $actor = User::create([
+            'firstname' => 'Actor6',
+            'lastname'=> 'Actor6',
+            'role'=>'actor',
+            'email' => 'actor6@gmail.com',
+            'password' => bcrypt('actor6')
+        ]);
     $admin->roles()->attach($adminRole);
     $actor->roles()->attach($actorRole);
     $user->roles()->attach($userRole);

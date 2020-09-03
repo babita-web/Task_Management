@@ -20,6 +20,17 @@ class TaskController extends Controller
         $tasks->update();
         return redirect ('/tasks')->with('status','Task is edited');
     }
+    public function store(Request $request)
+    {
+        $tasks = new Task;
+        $tasks->name = $request->input('name');
+        $tasks->description = $request->input('description');
+        $tasks->deadline = $request->input('deadline');
+        $tasks->actors_id = $request->input('actors_id');
+
+        $tasks->save();
+        return redirect('/tasks')->with('status', 'New Task is added');
+    }
 
     public function assigned()
     {

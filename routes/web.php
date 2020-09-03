@@ -58,7 +58,7 @@ Route::group(['middleware' => ['auth', 'admin']], function () {
     Route::delete('/delete/{id}', 'Admin\DashboardController@delete');
     Route::delete('/deletetask/{id}', 'Admin\TaskController@delete');
     Route::get('/add_task', 'Admin\TaskController@createtask');
-    Route::post('/added', 'Admin\TaskController@storre');
+    Route::post('/added', 'Admin\TaskController@store');
     Route::get('/roles', 'Admin\UserController@viewroles');
     Route::get('/groups', 'Admin\UserController@viewgroups');
     Route::get('/consumptions', 'Admin\TaskController@viewconsumption');
